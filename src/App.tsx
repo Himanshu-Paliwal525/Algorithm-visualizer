@@ -168,7 +168,7 @@ function App() {
                                 </div>
                             );
                         })}
-                        {/* {Array.isArray(pairRefs.current) &&
+                        {Array.isArray(pairRefs.current) &&
                             mergedPairRefs.current.map((pair, i) => (
                                 <ConnectionArrow
                                     key={i}
@@ -177,7 +177,7 @@ function App() {
                                     end={arrayRefs.current[pair.end]}
                                     container={containerRef}
                                 />
-                            ))} */}
+                            ))}
                     </div>
 
                     <div className="w-full flex justify-center sticky bottom-0">
